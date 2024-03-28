@@ -1,0 +1,57 @@
+.btn {
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    &:hover {
+        cursor: pointer;
+        border: 1px solid rgb(251, 50, 33);
+        background-color: rgb(251, 50, 33);
+        transition-duration: 0.7s;
+    }
+    &_oper:hover {
+        border: 1px solid rgb(66, 33, 251);
+        background-color: rgb(73, 33, 251);
+        transition-duration: 0.7s;
+    }
+    &_CE:hover {
+        border: 1px solid rgb(33, 251, 62);
+        background-color: rgb(33, 251, 44);
+        transition-duration: 0.7s;
+    }
+    &_equal:hover {
+        border: 1px solid rgb(251, 247, 33);
+        background-color: rgb(251, 229, 33);
+        transition-duration: 0.7s;
+    }
+    &-num-0 {
+        grid-area: 5 / 1 / 6 / 3;
+    }
+    &_equal {
+        grid-area: 4 / 4 / 6 / 5;
+    }
+    &-num-1 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    &-num-2 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    &-num-3 {
+        grid-area: 2 / 3 / 3 / 4;
+    }
+    &-num-4 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    &-num-5 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    &-num-6 {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+    &_plus {
+        grid-area: 2 / 4 / 3 / 5;
+    }
+    &_minus {
+       grid-area: 3 / 4 / 4 / 5; 
+    }
+}

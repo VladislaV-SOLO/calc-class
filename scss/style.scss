@@ -1,0 +1,16 @@
+@import "./reset";
+@import "./base";
+@import "./calc";
+@import "./calcBtn";
+
+.header {
+    &__title {
+        color: green;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+.calc-container {
+    margin-left: auto;
+    margin-right: auto;
+}

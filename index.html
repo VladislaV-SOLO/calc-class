@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.min.css">
-    <title>JAVA SCRIPT</title>
+    <link rel="stylesheet" href="/css/style.min.css">
+    <title>JS</title>
 </head>
+
 <body>
     <header class="header">
         <h1 class="header__title">My Calculator</h1>
     </header>
+
+
     <main class="calc-container">
         <div class="calc">
             <div class="calc__screen-container">
-                <input class="calc__screen" type="text" maxlength="15" placeholder="57.57">
+                <input class="calc__screen temp" type="text" maxlength="15" placeholder="5775">
             </div>
             <div class="calc__btn-container">
-                <button  id="clearCE" class="btn btn_CE">CE</button>
-                <button  id="clearC" class="btn btn_CE">C</button>
-                <button  class="btn btn_oper">/</button>
-                <button  class="btn btn_oper">*</button>
-                <button  class="btn btn_oper btn_plus">+</button>
-                <button  class="btn btn_oper btn_minus">-</button>
-                <button  class="btn btn_equal">=</button>
-
-                <button  class="btn btn-num-1">1</button>
-                <button class="btn btn-num-2">2</button>
-                <button  class="btn btn-num-3">3</button>
-                <button  class="btn btn-num-4">4</button>
-                <button  class="btn btn-num-5">5</button>
-                <button  class="btn btn-num-6">6</button>
-                <button  class="btn btn-num-7">7</button>
-                <button  class="btn btn-num-8">8</button>
-                <button  class="btn btn-num-9">9</button>
-                <button  class="btn btn-num-0">0</button>
-                <button  class="btn btn-num-point">.</button>
+                <button id="clearCE" class="btn btn_clear">CE</button>
+                <button id="clearC" class="btn btn_clear">C</button>
+                <button class="btn btn_operation">/</button>
+                <button class="btn btn_operation">*</button>
+                <button class="btn btn_operation btn-plus">+</button>
+                <button class="btn btn_operation btn-minus">-</button>
+                <button class="btn btn_equal">=</button>
+                <button class="btn btn-num-1 digit">1</button>
+                <button class="btn btn-num-2 digit">2</button>
+                <button class="btn btn-num-3 digit">3</button>
+                <button class="btn btn-num-4 digit">4</button>
+                <button class="btn btn-num-5 digit">5</button>
+                <button class="btn btn-num-6 digit">6</button>
+                <button class="btn btn-num-7 digit">7</button>
+                <button class="btn btn-num-8 digit">8</button>
+                <button class="btn btn-num-9 digit">9</button>
+                <button class="btn btn-num-0 digit">0</button>
+                <button class="btn btn-num-point digit">.</button>
             </div>
         </div>
     </main>
 
 
-
-
-
-    <script src="./index.js"></script>
+    <input type="button" value="2312321313">
+    <script src="index.js"></script>
 </body>
+
 </html>
 
 
 
 
-
-
-
-<!-- <div class="calc">
-    <div class="inp">
-        <input type="checkbox" class="inp_otvet">
-    </div>
-    <div class="numbers">
-
-    </div>
-</div> -->

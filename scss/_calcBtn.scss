@@ -3,6 +3,9 @@
     font-size: 3rem;
     border-radius: 5px;
     border: 1px solid gray;
+    &:active {
+        transform: scale(0.85);
+    }
     &:hover {
         cursor: pointer;
         border: 1px solid rgb(251, 50, 33);
@@ -15,8 +18,8 @@
         transition-duration: 0.7s;
     }
     &_CE:hover {
-        border: 1px solid rgb(33, 251, 62);
-        background-color: rgb(33, 251, 44);
+        border: 1px solid rgb(200, 70, 252);
+        background-color: rgb(200, 33, 251);
         transition-duration: 0.7s;
     }
     &_equal:hover {
